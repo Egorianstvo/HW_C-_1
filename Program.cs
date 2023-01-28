@@ -75,7 +75,7 @@ else
 
 System.Console.WriteLine("_____Задача 6_____");
 
-System.Console.Write("Enter number:");
+System.Console.Write("Enter number: ");
 
 int Number = Convert.ToInt32(Console.ReadLine());
 
@@ -87,3 +87,30 @@ else
 {
     System.Console.WriteLine("Не четное!!!");
 }
+
+
+/* Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+5 -> 2, 4
+8 -> 2, 4, 6, 8
+*/
+
+
+System.Console.WriteLine("_____Задача 8_____");    //Я могу тут сделать проверку на четность, Переменная % 2 == 0, НО я решил не делать, задача сразу дает мне четные числа
+
+System.Console.Write("Введите число: ");
+
+int NumberN = Convert.ToInt32(Console.ReadLine());
+
+int n = 2;
+
+while (n < NumberN)
+{
+    System.Console.WriteLine(n);
+    n += 2;
+}
+
+
+
+
+
+
